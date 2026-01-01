@@ -13,7 +13,7 @@ export const whychooseus = [
         title: "Creative & Inovative",
         content: "Cutting-edge marketing techniques to keep you ahead of the competition lorem ipsum dolor sit awsa consectetur adipiscing elit ut elit.",
         link: "#",
-        speed: ""
+        speed: "normal"
     },
     {
         id: 3,
@@ -37,7 +37,7 @@ export const whychooseus = [
         title: "Collaboration",
         content: "Cutting-edge marketing techniques to keep you ahead of the competition lorem ipsum dolor sit awsa consectetur adipiscing elit ut elit.",
         link: "#",
-        speed: ""
+        speed: "normal"
     },
     {
         id: 6,

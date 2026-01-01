@@ -1084,11 +1084,14 @@ body.lightmode .keep-dark .btn-accent{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 150vw;
+    height: 150vh;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: 0;
+    overflow: hidden;
     pointer-events: none;
-    width: 100%;
-    height: 100%;
 }
-
 
 .banner-video-content{
     display: flex;
@@ -1945,6 +1948,11 @@ body.lightmode .navbar-icon-wrapper{
     box-shadow: var(--box-shadow-bottom-right);
 }
 
+.card-about .counter-wrapper {
+    display: inline-flex;
+    align-items: center; /* Pastikan alignment di wrapper */
+}
+
 .card-about .counter{
     font-size: var(--font-size-15xl);
     line-height: var(--line-height-normal);
@@ -2032,6 +2040,11 @@ body.lightmode .navbar-icon-wrapper{
 
 .card-expertise:hover{
     box-shadow: var(--box-shadow-bottom-right);
+}
+
+.card-expertise .counter-wrapper {
+    display: inline-flex;
+    align-items: center; /* Pastikan alignment di wrapper */
 }
 
 .card-expertise .counter{
@@ -2504,21 +2517,21 @@ body.lightmode .case-studies-content::before{
 }
 
 .case-studies-content.local-business{
-    background-image: url('/assets/images/collaborative-process-of-multicultural-skilled-peo-ALTECKG.jpg');
+    background-image: url('/assets/images/dummy-img-600x400.jpg');
     width: 56.2%;
 }
 
 .case-studies-content.saas-leads{
-    background-image: url('/assets/images/collaborative-process-of-multicultural-skilled-peo-LELW4NP.jpg');
+    background-image: url('/assets/images/dummy-img-600x400.jpg');
     width: 42%;
 }
 
 .case-studies-content.ecommerce{
-    background-image: url('/assets/images/collaborative-process-of-multicultural-skilled-peo-LY58K9U-1024x683.jpg');
+    background-image: url('/assets/images/dummy-img-600x400.jpg');
     width: 42%;
 }
 .case-studies-content.startup-branding{
-    background-image: url('/assets/images/collaborative-process-of-multicultural-skilled-peo-YK9CA3B.jpg');
+    background-image: url('/assets/images/dummy-img-600x400.jpg');
     width: 56.2%;
 }
 
@@ -3054,7 +3067,7 @@ body.lightmode .card-blog{
 /* ================== 35. Guide Components ================== */
 
 .guide-banner{
-    background-image: url('/assets/images/collaborative-process-of-multicultural-skilled-peo-AN9FZBQ-1024x683.jpg');
+    background-image: url('/assets/images/dummy-img-1920x900.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -4157,7 +4170,7 @@ body.lightmode .accordion-button:not(.collapsed)::after{
 /* ================== 53. CTA Service Banner Components ================== */
 
 .cta-service-banner{
-    background-image: url('/assets/images/collaborative-process-of-multicultural-skilled-peo-AN9FZBQ-1024x683.jpg');
+    background-image: url('/assets/images/dummy-img-1920x900.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -4205,16 +4218,19 @@ body.lightmode .cta-service-banner::before{
     opacity: 0;
 }
 
-.animated{
-    animation-duration: var(--animation-normal);
+.animate__animated {
+    animation-duration: 1.25s;
+    animation-duration: var(--animation-normal, 1.25s);
 }
 
-.animated.fast{
-    animation-duration: var(--animation-fast);
+.animate__animated.animate__fast {
+    animation-duration: 0.75s;
+    animation-duration: var(--animation-fast, 0.75s);
 }
 
-.animated.slow{
-    animation-duration: var(--animation-slow);
+.animate__animated.animate__slow {
+    animation-duration: 2s;
+    animation-duration: var(--animation-slow, 2s);
 }
 
 /* ================== 55. CustomText Container Components ================== */

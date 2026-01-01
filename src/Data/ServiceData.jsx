@@ -12,7 +12,7 @@ export const services = [
         icon: "/assets/images/digital-marketing-icons-F4LJ4W8.png",
         title: "Content Marketing",
         content: "Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.",
-        speed: "",
+        speed: "normal",
         link: "single_services",
     },
     {
@@ -36,7 +36,7 @@ export const services = [
         icon: "/assets/images/Icon-6.png",
         title: "Branding & Design",
         content: "Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.",
-        speed: "",
+        speed: "normal",
         link: "single_services",
     },
     {

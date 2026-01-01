@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import useAnimateOnScroll from "../Hooks/useAnimateOnScroll";
+import AnimateOnScroll from "../Hooks/AnimateOnScroll";
 
 function NewsletterSection() {
-    useAnimateOnScroll();
 
     const [email, setEmail] = useState("");
     const [success, setSuccess] = useState(false);
@@ -45,16 +44,15 @@ function NewsletterSection() {
                     <div className="newsletter-layout">
                         <div className="spacer"></div>
                         <div className="d-flex flex-column gspace-5 position-relative z-2">
-                            <div
-                                className="d-flex flex-column gspace-2 animate-box animate__animated"
-                                data-animate="animate__fadeInLeft"
-                            >
-                                <h3 className="title-heading">Stay Ahead in Digital Marketing</h3>
-                                <p>
-                                    Get exclusive insights, trends, and strategies delivered straight to your inbox.
-                                    Subscribe now!
-                                </p>
-                            </div>
+                            <AnimateOnScroll animation="fadeInLeft" speed="normal">
+                                <div className="d-flex flex-column gspace-2">
+                                    <h3 className="title-heading">Stay Ahead in Digital Marketing</h3>
+                                    <p>
+                                        Get exclusive insights, trends, and strategies delivered straight to your inbox.
+                                        Subscribe now!
+                                    </p>
+                                </div>
+                            </AnimateOnScroll>
 
                             {success && (
                                 <div className="alert success">
@@ -74,37 +72,39 @@ function NewsletterSection() {
                                 </div>
                             )}
 
-                            <form
-                                id="newsletterForm"
-                                onSubmit={handleSubmit}
-                                className="needs-validation animate-box animate__animated"
-                                data-animate="animate__fadeInRight"
-                                noValidate
-                            >
-                                <div className="input-container">
-                                    <input
-                                        type="email"
-                                        name="newsletter-email"
-                                        id="newsletter-email"
-                                        placeholder="Give your best email"
-                                        value={email}
-                                        onChange={(e) => setEmail(e.target.value)}
-                                        className={error ? "error-border" : ""}
-                                        required
-                                    />
-                                    {error && (
-                                        <div className="error-text">{errorMessage}</div>
-                                    )}
-                                </div>
-                                <button className="btn btn-accent" type="submit">
-                                    <span className="btn-title">
-                                        <span>Subscribe</span>
-                                    </span>
-                                    <span className="icon-circle">
-                                        <i className="fa-solid fa-arrow-right"></i>
-                                    </span>
-                                </button>
-                            </form>
+                            <AnimateOnScroll animation="fadeInRight" speed="normal">
+                                <form
+                                    id="newsletterForm"
+                                    onSubmit={handleSubmit}
+                                    className="needs-validation"
+                                    noValidate
+                                >
+                                    <div className="input-container">
+                                        <input
+                                            type="email"
+                                            name="newsletter-email"
+                                            id="newsletter-email"
+                                            placeholder="Give your best email"
+                                            value={email}
+                                            onChange={(e) => setEmail(e.target.value)}
+                                            className={error ? "error-border" : ""}
+                                            required
+                                        />
+                                        {error && (
+                                            <div className="error-text">{errorMessage}</div>
+                                        )}
+                                    </div>
+                                    <button className="btn btn-accent" type="submit">
+                                        <span className="btn-title">
+                                            <span>Subscribe</span>
+                                        </span>
+                                        <span className="icon-circle">
+                                            <i className="fa-solid fa-arrow-right"></i>
+                                        </span>
+                                    </button>
+                                </form>
+                            </AnimateOnScroll>
+
                         </div>
                     </div>
                 </div>

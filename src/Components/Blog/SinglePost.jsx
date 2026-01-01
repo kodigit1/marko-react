@@ -51,7 +51,7 @@ const BlogPostSection = () => {
                     <div className="d-flex flex-column gspace-2">
                         <div className="post-image">
                             <img
-                            src="/assets/images/young-people-working-in-the-grunge-office-V55NNM4-1024x683.jpg"
+                            src="/assets/images/dummy-img-600x400.jpg"
                             alt="Recent Post"
                             className="img-fluid"
                             />

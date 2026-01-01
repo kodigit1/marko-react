@@ -1,0 +1,33 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - echo "Node.js version:"
+        - node --version
+        - echo "NPM version:"
+        - npm --version
+        - echo "Installing dependencies..."
+        - npm ci
+        - echo "Dependencies installed successfully"
+    build:
+      commands:
+        - echo "Starting build process..."
+        - echo "Environment variables (filtered):"
+        - env | grep VITE_ || echo "No VITE_ environment variables found"
+        - npm run build
+        - echo "Build completed successfully"
+        - echo "Build output directory contents:"
+        - ls -la dist/
+  artifacts:
+    baseDirectory: dist
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
+environment:
+  variables:
+    # These will be overridden by Amplify Console environment variables
+    NODE_ENV: production
+    VITE_APP_NAME: Marko React App

@@ -35,7 +35,7 @@ const ContactForm = () => {
             {successMessageVisible && (
             <div id="success-message" className="alert success">
                 <span className="check-icon">
-                <i className="fa-solid fa-check"></i>
+                    <i className="fa-solid fa-check"></i>
                 </span>
                 <p className="text-center">Thank you! Message sent successfully.</p>
             </div>
