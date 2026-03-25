@@ -108,7 +108,7 @@ function BannerHomeSection() {
                         <div className="d-flex flex-column gspace-2">
                             <AnimateOnScroll animation="fadeInLeft" speed="normal">
                                 <h1 className="title-heading-banner">
-                                    Il tuo nuovo sito per il tuo locale a un piccolo anticipo e meno di un caffè al giorno
+                                    Il tuo nuovo sito per la tua attività a meno di un caffè al giorno
                                 </h1>
                             </AnimateOnScroll>
                             <div className="banner-heading">
