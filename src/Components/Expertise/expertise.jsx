@@ -52,19 +52,22 @@ function ExpertiseSection(){
                                 </h2>
                             </AnimateOnScroll>
                             <p>
-                                At Marko, we specialize in crafting innovative digital marketing strategies that drive real business growth. Our expertise
-                                ensures your brand stays ahead in the competitive digital landscape.
+                                Pensato per chi ha poco tempo e budget limitato: creiamo il sito della 
+                                tua attività, lo mettiamo online con il tuo dominio, lo ospitiamo sui 
+                                nostri server e lo rendiamo conforme al GDPR. 
+                                Tu paghi solo un piccolo anticipo per partire e una cifra mensile bassa, 
+                                che puoi permetterti anche se sei un piccolo negozio.
                             </p>
                             <div className="d-flex flex-column flex-md-row gspace-2">
                                 <div className="expertise-list">
-                                    <h5>What We Do Best</h5>
+                                    <h5>Cosa è incluso</h5>
                                     <ul className="check-list">
-                                        <li><a href="./single_services">Performance Marketing</a></li>
-                                        <li><a href="./single_services">Social Media Growth</a></li>
-                                        <li><a href="./single_services">Content Marketing</a></li>
-                                        <li><a href="./single_services">PPC & Paid Ads</a></li>
-                                        <li><a href="./single_services">Brand Strategy</a></li>
-                                        <li><a href="./single_services">Conversion Optimization</a></li>
+                                        <li><a href="./single_services">Nome dominio personalizzato (es: tuonome.it)</a></li>
+                                        <li><a href="./single_services">Servizio di hosting veloce e sicuro</a></li>
+                                        <li><a href="./single_services">Sito professionale ottimizzato per smartphone</a></li>
+                                        <li><a href="./single_services">Modulo contatti con gestione consensi GDPR</a></li>
+                                        <li><a href="./single_services">Pagina per mostrare menu, listino o servizi</a></li>
+                                        <li><a href="./single_services">ntegrazione WhatsApp / telefono per contatti veloci</a></li>
                                     </ul>
                                 </div>
 
