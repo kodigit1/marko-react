@@ -108,7 +108,7 @@ function BannerHomeSection() {
                         <div className="d-flex flex-column gspace-2">
                             <AnimateOnScroll animation="fadeInLeft" speed="normal">
                                 <h1 className="title-heading-banner">
-                                    Amplify Your Brand with Cutting-Edge Digital Marketing
+                                    Promozione Sito Web
                                 </h1>
                             </AnimateOnScroll>
                             <div className="banner-heading">
@@ -128,9 +128,9 @@ function BannerHomeSection() {
                                 <AnimateOnScroll animation="fadeInRight" speed="normal">
                                     <div className="banner-content order-lg-2 order-1">
                                         <p>
-                                            Marko empowers businesses to grow online with data driven digital
-                                            marketing, innovative branding, and performance focused strategies
-                                            trusted by top brands lorem ipsum dolor sit amet consectetur.
+                                            Siti web professionali per bar, negozi, ristoranti, pizzerie e piccole attività della tua città, 
+                                            con nome dominio, hosting e modulo GDPR inclusi. Paghi un piccolo anticipo e una quota mensile 
+                                            fissa, senza sorprese
                                         </p>
                                         <div className="d-flex flex-md-row flex-column justify-content-center justify-content-lg-start align-self-center align-self-lg-start gspace-3">
                                             <a href="./about" className="btn btn-accent">
@@ -148,7 +148,7 @@ function BannerHomeSection() {
                                                     <img src="/assets/images/dummy-img-400x400.jpg" alt="Reviewer" className="avatar" />
                                                 </div>
                                                 <div className="detail">
-                                                    <span>2.7k Positive</span>
+                                                    <span>Prenota una chiamata gratuita e senza impegno</span>
                                                     <span>Reviews</span>
                                                 </div>
                                             </div>

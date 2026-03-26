@@ -86,7 +86,7 @@ const ContactForm = () => {
                 <div className="form-button-container">
                         <button type="submit" className="btn btn-accent">
                             <span className="btn-title">
-                                <span>Send a Message</span>
+                                <span>Invia</span>
                             </span>
                             <span className="icon-circle">
                                 <i className="fa-solid fa-arrow-right"></i>
