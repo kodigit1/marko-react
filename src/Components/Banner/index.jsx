@@ -108,7 +108,7 @@ function BannerHomeSection() {
                         <div className="d-flex flex-column gspace-2">
                             <AnimateOnScroll animation="fadeInLeft" speed="normal">
                                 <h1 className="title-heading-banner">
-                                    Promozione Sito Web
+                                    Il tuo nuovo sito web a € 9,99/mese
                                 </h1>
                             </AnimateOnScroll>
                             <div className="banner-heading">
