@@ -40,39 +40,9 @@ return (
                             </NavLink>
                         </li>
 
-                        <li className="nav-item">
-                            <NavLink to="/about" className="nav-link">
-                            About
-                            </NavLink>
-                        </li>
+                       
 
-                        <li className="nav-item dropdown">
-                            <a
-                            className={`nav-link dropdown-toggle ${
-                                isDropdownActive(["/service", "/single_services"])
-                                ? "active"
-                                : ""
-                            }`}
-                            href="#"
-                            role="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                            >
-                            Services <i className="fa-solid fa-angle-down accent-color"></i>
-                            </a>
-                            <ul className="dropdown-menu">
-                                <li>
-                                    <NavLink to="/service" className="dropdown-item">
-                                        Service
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink to="/single_services" className="dropdown-item">
-                                        Single Services
-                                    </NavLink>
-                                </li>
-                            </ul>
-                        </li>
+                        
 
                         <li className="nav-item dropdown">
                             <a
