@@ -148,7 +148,7 @@ function BannerHomeSection() {
                                                     <img src="/assets/images/dummy-img-400x400.jpg" alt="Reviewer" className="avatar" />
                                                 </div>
                                                 <div className="detail">
-                                                    <span>Prenota una chiamata gratuita e senza impegno</span>
+                                                    <span>Prenota una call gratuita e senza impegno</span>
                                                     <span>Reviews</span>
                                                 </div>
                                             </div>
