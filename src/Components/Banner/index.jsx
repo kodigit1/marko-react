@@ -118,8 +118,7 @@ function BannerHomeSection() {
                                         <div className="d-flex flex-column flex-lg-row text-lg-start text-center align-items-center gspace-5">
                                             <VideoButton videoUrl="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1" />
                                             <p>
-                                                Watch our video reviews and see how businesses achieve success
-                                                with Marko's digital marketing solutions.
+                                                Guarda il video  .
                                             </p>
                                         </div>
                                     </div>
@@ -148,7 +147,7 @@ function BannerHomeSection() {
                                                     <img src="/assets/images/dummy-img-400x400.jpg" alt="Reviewer" className="avatar" />
                                                 </div>
                                                 <div className="detail">
-                                                    <span>Prenota una call gratuita e senza impegno</span>
+                                                    <span>Prenota una chiamata gratuita e senza impegno</span>
                                                     <span>Reviews</span>
                                                 </div>
                                             </div>
