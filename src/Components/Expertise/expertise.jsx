@@ -13,7 +13,7 @@ function ExpertiseSection(){
                             <div className="image-container expertise-img">
                                 <AnimateOnScroll animation="fadeInUp" speed="normal">
                                     <img
-                                        src="/assets/images/dummy-img-600x400.jpg"
+                                        src="/assets/images/bar-600x400-pixels.jpg"
                                         alt="Expertise Image"
                                         className="img-fluid"
                                     />
