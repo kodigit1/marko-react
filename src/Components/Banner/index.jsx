@@ -19,13 +19,13 @@ function BannerHomeSection() {
 
         window.onYouTubeIframeAPIReady = () => {
             playerRef.current = new window.YT.Player("banner-video-background", {
-                videoId: "P68V3iH4TeE",
+                videoId: "U9xnsWEbpFw",
                 playerVars: {
                 autoplay: 1,
                 controls: 0,
                 mute: 1,
                 loop: 1,
-                playlist: "P68V3iH4TeE",
+                playlist: "U9xnsWEbpFw",
                 showinfo: 0,
                 rel: 0,
                 enablejsapi: 1,
