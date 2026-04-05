@@ -30,12 +30,13 @@ function ChooseUsSection(){
                                             <i className="fa-regular fa-circle-dot"></i>
                                             <span>Why Choose Marko</span>
                                         </div>
-                                        <h2 className="title-heading">Your Success is Our Mission</h2>
-                                        <p className="mb-0">In the fast-paced digital world, choosing the right marketing partner makes all the difference. At Marko, we don’t just create campaigns—we craft strategies that deliver measurable success.</p>
+                                        <h2 className="title-heading">Il tuo successo è la nostra missione</h2>
+                                        <p className="mb-0">Nel mondo digitale ad alta velocità, scegliere il partner di marketing giusto fa tutta la differenza. 
+                                            Non creiamo solo campagne: elaboriamo strategie che portano a successi misurabili..</p>
                                     </div>
                                 </AnimateOnScroll>
                                 <div className="image-container">
-                                    <img src="/assets/images/dummy-img-600x400.jpg" alt="Why Choose Us Image" className="chooseus-img" />
+                                    <img src="/assets/images/image-in-600x400-pixels-hairstyle.jpg" alt="HairStyle imgImage" className="chooseus-img" />
                                     <div className="card-chooseus-cta-layout">
                                         <div className="chooseus-cta-spacer"></div>
                                         <div className="d-flex flex-column align-items-end">
