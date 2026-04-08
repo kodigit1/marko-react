@@ -19,13 +19,13 @@ function BannerHomeSection() {
 
         window.onYouTubeIframeAPIReady = () => {
             playerRef.current = new window.YT.Player("banner-video-background", {
-                videoId: "P68V3iH4TeE",
+                videoId: "U9xnsWEbpFw",
                 playerVars: {
                 autoplay: 1,
                 controls: 0,
                 mute: 1,
                 loop: 1,
-                playlist: "P68V3iH4TeE",
+                playlist: "U9xnsWEbpFw",
                 showinfo: 0,
                 rel: 0,
                 enablejsapi: 1,
@@ -113,16 +113,7 @@ function BannerHomeSection() {
                             </AnimateOnScroll>
                             <div className="banner-heading">
 
-                                <AnimateOnScroll animation="fadeInUp" speed="normal">
-                                    <div className="banner-video-content order-lg-1 order-2">
-                                        <div className="d-flex flex-column flex-lg-row text-lg-start text-center align-items-center gspace-5">
-                                            <VideoButton videoUrl="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1" />
-                                            <p>
-                                                Guarda il video  .
-                                            </p>
-                                        </div>
-                                    </div>
-                                </AnimateOnScroll>
+                               
 
                                 <AnimateOnScroll animation="fadeInRight" speed="normal">
                                     <div className="banner-content order-lg-2 order-1">

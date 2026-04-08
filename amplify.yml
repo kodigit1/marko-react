@@ -8,7 +8,7 @@ frontend:
         - echo "NPM version:"
         - npm --version
         - echo "Installing dependencies..."
-        - npm ci
+        - npm install --prefer-offline
         - echo "Dependencies installed successfully"
     build:
       commands:
