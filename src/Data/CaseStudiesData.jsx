@@ -9,8 +9,8 @@ export const caseStudiesData = [
     },
     {
 		id: 2,
-		title: "SaaS Lead Generation Success",
-		description: "150% increase in qualified leads & 70% lower customer acquisition cost.",
+		title: "Boutique del Tortellino ",
+		description: "Incremento della visibilità in area locale, sviluppo clienti aziendali .",
 		tags: ["Content", "LinkedIn Ads", "Email", "Webinar", "Landing", "CRM", "Retargeting"],
 		className: "saas-leads",
 		size: "small",
