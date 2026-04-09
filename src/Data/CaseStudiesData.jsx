@@ -1,7 +1,7 @@
 export const caseStudiesData = [
     {
 		id: 1,
-		title: "Local Business Digital Transformation",
+		title: "Ferrara Centro Chiavi",
 		description: "5x ROI on social media campaigns & 80% increase in engagement...",
 		tags: ["Social", "Influencer", "Retargeting", "Google", "Video", "Local", "Community"],
 		className: "local-business",

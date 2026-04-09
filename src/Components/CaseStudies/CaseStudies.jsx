@@ -16,9 +16,9 @@ const CaseStudiesSection = ({ noPadding }) => {
                                     <div className="d-flex flex-column gspace-2">
                                         <div className="sub-heading">
                                             <i className="fa-regular fa-circle-dot"></i>
-                                            <span>Case Studies</span>
+                                            <span>I nostri clienti</span>
                                         </div>
-                                        <h2 className="title-heading">See How We Help Businesses Thrive</h2>
+                                        <h2 className="title-heading">Attività che ci hanno scelto</h2>
                                     </div>
                                 </AnimateOnScroll>
                             </div>
